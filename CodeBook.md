@@ -5,12 +5,9 @@ This project contains the resulting merged data after tidying it up from the ori
 * train/X_train.txt
 * train/y_train.txt
 * train/subject_train.txt
-
-It contains all the 7352 observations of 563 variables (Subject and Activity was added in column 1 and 2)
- Subject : int  1 1 1 1 1 1 1 1 1 1 ...
- Activity: int  5 5 5 5 5 5 5 5 5 5 ...
- V1      : num  0.289 0.278 0.28 0.279 0.277 ...
- [...]
+* test/X_train.txt
+* test/y_train.txt
+* test/subject_test.txt
 
 
 ## Activity Labels
@@ -21,3 +18,87 @@ It contains all the 7352 observations of 563 variables (Subject and Activity was
 * "SITTING" (value=4): Subject was sitting during the test
 * "STANDING" (value=5): Subject was standing during the test
 * "LAYING" (value=6): Subject was laying down during the test
+
+## Identifiers
+
+* Subject - The test subject's ID number
+* Activity - The type of activity performed when the corresponding measurements were taken
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkStdX
+* fBodyAccJerkStdY
+* fBodyAccJerkStdZ
+* fBodyAccMagMean
+* fBodyAccMagMeanFreq
+* fBodyAccMagStd
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccStdX
+* fBodyAccStdY
+* fBodyAccStdZ
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyAccJerkMagStd
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagMeanFreq
+* fBodyBodyGyroJerkMagStd
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroMagStd
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroStdX
+* fBodyGyroStdY
+* fBodyGyroStdZ
+* tBodyAccJerkMagMean
+* tBodyAccJerkMagStd
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyAccJerkStdX
+* tBodyAccJerkStdY
+* tBodyAccJerkStdZ
+* tBodyAccMagMean
+* tBodyAccMagStd
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tBodyAccStdX
+* tBodyAccStdY
+* tBodyAccStdZ
+* tBodyGyroJerkMagMean
+* tBodyGyroJerkMagStd
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyGyroJerkStdX
+* tBodyGyroJerkStdY
+* tBodyGyroJerkStdZ
+* tBodyGyroMagMean
+* tBodyGyroMagStd
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroStdX
+* tBodyGyroStdY
+* tBodyGyroStdZ
+* tGravityAccMagMean
+* tGravityAccMagStd
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tGravityAccStdX
+* tGravityAccStdY
+* tGravityAccStdZ
